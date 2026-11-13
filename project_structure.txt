@@ -1,0 +1,37 @@
+﻿Cattle Vision/
+├── datasets/
+│   ├── active/
+│   │   └── dataset_18breeds_split_jpeg/
+│   │       ├── train/
+│   │       ├── validation/
+│   │       └── test/
+│   ├── source/
+│   └── archive/
+├── models/
+│   ├── final/
+│   ├── experiments/
+│   │   ├── original_format/
+│   │   └── all_formats/
+│   └── archive/
+├── results/
+│   ├── duplicate_audit/
+│   ├── error_analysis/
+│   ├── evaluation/
+│   ├── leakage_audit/
+│   └── training/
+├── src/
+│   ├── data_processing/
+│   ├── training/
+│   ├── evaluation/
+│   ├── analysis/
+│   │   ├── duplicate_audit/
+│   │   └── error_analysis/
+│   └── legacy_24breed/
+│       ├── data_processing/
+│       ├── training/
+│       └── evaluation/
+├── requirements.txt
+├── .gitignore
+└── project_structure.txt
+
+Note: .venv/ is maintained locally and excluded from Git.

@@ -1,0 +1,79 @@
+﻿# =====================================
+# PYTHON
+# =====================================
+
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# =====================================
+# DATASETS AND RESULTS
+# =====================================
+
+datasets/
+results/
+
+# =====================================
+# MODEL FILES
+# Keep only production models
+# =====================================
+
+models/*
+
+!models/final/
+!models/detection/
+
+models/final/*
+models/detection/*
+
+!models/final/mobilenetv2_18breed_finetuned_best.keras
+!models/final/class_names_18breed.json
+
+!models/detection/yolo11n.onnx
+
+# =====================================
+# FRONTEND
+# =====================================
+
+frontend/node_modules/
+frontend/dist/
+
+# =====================================
+# ENVIRONMENT VARIABLES
+# =====================================
+
+.env
+.env.*
+!.env.example
+
+# =====================================
+# LOGS AND TEMPORARY FILES
+# =====================================
+
+logs/
+tensorboard/
+*.log
+*.tmp
+*.temp
+
+# =====================================
+# IDE AND SYSTEM FILES
+# =====================================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =====================================
+# OTHER
+# =====================================
+
+/confusion_contact_sheets/
+
+# Previous 24-breed experiments
+/src/legacy_24breed/
